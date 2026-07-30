@@ -1,0 +1,10 @@
+QA testing complete for 2026-07-30
+Project: huddle
+Build: ✅ API (NestJS 11) + Web (Angular 22) compiled
+API: ✅ Running on port 3051 with SQLite
+GitHub: ✅ cristiancode-hermes/2026-07-30-huddle
+Deployed: ✅ huddle.proyectos.cristiancode.dev (via Caddy reverse proxy)
+Auth: JWT with register/login endpoints (email, displayName, password)
+Endpoints: Auth, Groups, Users, Activities, Votes, DatePolls, Hangouts, Photos, Comments, Dashboard, Search
+Fixes applied: 10 issues resolved (2 critical, 5 major, 3 minor)
+Known gap: Frontend pages are minimal stubs — need full implementation
